@@ -31,33 +31,22 @@
                 <div class="optionalPrice">
                     <label>Qiyməti</label>
                     <select class="currency">
-
                         <option>AZN <i class="fas fa-angle-down"></i></option>
-                        <option>USD</option>
-                        <option>EUR</option>
                     </select>
                     <input type="text" placeholder="min." class="optionalMin">
                     <input type="text" placeholder="maks." class="optionalMax">
                 </div>
-                <div class="enterYear">
+                <div style="margin-top:2px;" class="enterYear">
                     <label class="year">Buraxılış ili</label>
                     <input type="text" placeholder="min." class="optionalMin yearMin">
                     <input type="text" placeholder="maks." class="optionalMax yearMax">
                 </div>
             </div>
             <div class="wideSearch-barterCredit">
-                <div class="checkBox">
-                    <label>Kredit <input type="checkbox"> </label>
-                    <select class="allCity" asp-items="@(new SelectList(ViewBag.Locations, "Id", "Name"))">
+                    <select style="margin-left:15px;margin-top:20px;" class="allCity" asp-items="@(new SelectList(ViewBag.Locations, "Id", "Name"))">
                         <option>Bütün şəhərlər</option>
                     </select>
-                </div>
-                <div class="checkBox barter">
-                    <label>Barter <input type="checkbox"> </label>
-                    <div class="dailyAds"><p>@ViewBag.AnnouncementsCount elan</p></div>
-                </div>
-                <div> </div>
-
+                    <div style="margin-left:15px;margin-top:67px;" class="dailyAds"><p>@ViewBag.AnnouncementsCount elan</p></div>
             </div>
             <div class="wideSearch">
                 <button class="search">Axtar</button>

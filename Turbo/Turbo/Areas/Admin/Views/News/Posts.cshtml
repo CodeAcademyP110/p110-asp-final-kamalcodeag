@@ -16,7 +16,6 @@
             <th>Başlıq</th>
             <th>Qısa məlumat</th>
             <th>Tarix</th>
-            <th>Müəllif</th>
             <th>Ətraflı məlumat</th>
             <th>Əməliyyat</th>
         </tr>
@@ -32,7 +31,6 @@
                 <td>@news.Title</td>
                 <td>@news.ShortInfo</td>
                 <td>@news.PublishDate.Year</td>
-                <td>@news.CustomUser.FirstName</td>
                 <td>
                     <a asp-area="Admin" asp-controller="News" asp-action="PostsItem" asp-route-id="@news.Id">
                         Daha çox
