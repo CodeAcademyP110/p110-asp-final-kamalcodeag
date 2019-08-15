@@ -70,7 +70,7 @@ using Turbo.ViewModels;
             WriteLiteral("            <p style=\"background-color: lawngreen; color: white; padding: 5px;margin-bottom: 20px 0;text-align:center;\">Təbrik edirik ! Hesabınız təsdiqləndi.</p>\r\n            ");
             EndContext();
             BeginContext(268, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40913da275d44459a27eca880ab525b8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "92ef6bdff5f74b7eb6e849a1d8173aa8", async() => {
                 BeginContext(339, 15, true);
                 WriteLiteral("Hesaba daxil ol");
                 EndContext();

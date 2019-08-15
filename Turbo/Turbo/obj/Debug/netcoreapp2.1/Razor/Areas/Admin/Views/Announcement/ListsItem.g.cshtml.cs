@@ -60,7 +60,7 @@ using Turbo.ViewModels;
             WriteLiteral("\r\n\r\n<section>\r\n    <div class=\"wrapper\">\r\n        <div class=\"products s-list-item-bold\">\r\n            <div class=\"product\" style=\"\r\n    display: flex;\r\n    flex-direction: column;\r\n\">\r\n                <div class=\"product-photos\">\r\n                    ");
             EndContext();
             BeginContext(273, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b576641f554f48c7a437e4f3a9280452", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "73f4b84f69824d1bb7b814207d1bde4d", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -96,7 +96,7 @@ AddHtmlAttributeValue("", 296, Model.Automobile.MainPhotoURL, 296, 30, false);
             WriteLiteral("                        ");
             EndContext();
             BeginContext(473, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b8eca4c1453246f9bcb9bd7b6098eee6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "501248fb926645079b7af983cab1a4e3", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

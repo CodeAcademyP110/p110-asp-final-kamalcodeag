@@ -72,6 +72,8 @@ namespace Turbo.Controllers
                 return NotFound();
             }
 
+            ViewBag.AnnouncementsWithSameModels = _context.Announcements.Where(announce => announce.Automobile.ModelId == announcementFromDb.Automobile.ModelId);
+
             return View(announcementFromDb);
         }
 

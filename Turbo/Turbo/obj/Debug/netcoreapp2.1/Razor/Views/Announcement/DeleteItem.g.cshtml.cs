@@ -67,12 +67,12 @@ using Turbo.ViewModels;
             WriteLiteral("\r\n<section>\r\n    <div class=\"wrapper\">\r\n        <div class=\"first-number\">\r\n\r\n        </div>\r\n        <div class=\"admin-warning\">\r\n            <p>Elanın silinməsi</p>\r\n        </div>\r\n        ");
             EndContext();
             BeginContext(214, 6282, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c104288b16ae48b98a0b535f79dd902f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8effc6445c843de980b337bfab8a365", async() => {
                 BeginContext(264, 14, true);
                 WriteLiteral("\r\n            ");
                 EndContext();
                 BeginContext(278, 46, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d43b8cba8b7c4b0e96158177e68bcb04", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2fcb91fb38f048c28bf4fdc51d10fac9", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper>();
@@ -105,7 +105,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
                                 ");
                 EndContext();
                 BeginContext(736, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c4c78380c5b44f59501077d5e6f1f8a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a540cd7bf5154cfbb3c3cc62819d592d", async() => {
                     BeginContext(754, 33, false);
 #line 22 "D:\Programming\Other\ASP.NET Core\06.08.2019(FINAL PROJECT)\Turbo\Turbo\Views\Announcement\DeleteItem.cshtml"
                                             Write(Model.Automobile.Model.Brand.Name);
@@ -142,7 +142,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
                                 ");
                 EndContext();
                 BeginContext(1226, 54, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8cf7d5b07bdb41ffa2d2f68bda5eb27e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1152012c471447aab6b9c35f2a7265f6", async() => {
                     BeginContext(1244, 27, false);
 #line 33 "D:\Programming\Other\ASP.NET Core\06.08.2019(FINAL PROJECT)\Turbo\Turbo\Views\Announcement\DeleteItem.cshtml"
                                             Write(Model.Automobile.Model.Name);
@@ -198,7 +198,7 @@ WriteAttributeValue("", 1676, Model.Automobile.Distance, 1676, 26, false);
                                 ");
                 EndContext();
                 BeginContext(2103, 54, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "99062211fbdd4a6b8ddb4f4964cad9f4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "830d3493351a4ea48e7c40aa6b60b110", async() => {
                     BeginContext(2121, 27, false);
 #line 53 "D:\Programming\Other\ASP.NET Core\06.08.2019(FINAL PROJECT)\Turbo\Turbo\Views\Announcement\DeleteItem.cshtml"
                                             Write(Model.Automobile.Color.Name);
@@ -235,7 +235,7 @@ WriteAttributeValue("", 1676, Model.Automobile.Distance, 1676, 26, false);
                                 ");
                 EndContext();
                 BeginContext(2587, 46, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52e13ea36c084dbda65a606939f4e102", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f4136fa8a02e429c843ace66a39ad1b2", async() => {
                     BeginContext(2605, 19, false);
 #line 64 "D:\Programming\Other\ASP.NET Core\06.08.2019(FINAL PROJECT)\Turbo\Turbo\Views\Announcement\DeleteItem.cshtml"
                                             Write(Model.Location.Name);
@@ -288,7 +288,7 @@ WriteAttributeValue("", 3041, Model.Automobile.Price, 3041, 23, false);
                         ");
                 EndContext();
                 BeginContext(3357, 70, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "31f53a7f4c58457f873211ebca89db98", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d0f0418dfe2141db9d611e6da7d028d6", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -323,7 +323,7 @@ AddHtmlAttributeValue("", 3373, Model.Automobile.MainPhotoURL, 3373, 30, false);
                 WriteLiteral("                            ");
                 EndContext();
                 BeginContext(3640, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b7341fc2cd074bb7b87a46aa18ca74b2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6f98d5bf3885465b91b622d8d252a184", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -367,7 +367,7 @@ AddHtmlAttributeValue("", 3656, photo.PhotoURL, 3656, 15, false);
                                 ");
                 EndContext();
                 BeginContext(4155, 53, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a09218afc7ac4177a1c4035a6d1ac503", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47ddc3a2b84b4d1e983d78cd50db4d61", async() => {
                     BeginContext(4173, 26, false);
 #line 98 "D:\Programming\Other\ASP.NET Core\06.08.2019(FINAL PROJECT)\Turbo\Turbo\Views\Announcement\DeleteItem.cshtml"
                                             Write(Model.Automobile.Fuel.Name);
@@ -404,7 +404,7 @@ AddHtmlAttributeValue("", 3656, photo.PhotoURL, 3656, 15, false);
                                 ");
                 EndContext();
                 BeginContext(4645, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "877a5a0229d24349b1c36d76b4b68a29", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b28ef800d66d4c898677e1f8b74bc7d6", async() => {
                     BeginContext(4663, 34, false);
 #line 109 "D:\Programming\Other\ASP.NET Core\06.08.2019(FINAL PROJECT)\Turbo\Turbo\Views\Announcement\DeleteItem.cshtml"
                                             Write(Model.Automobile.SpeedControl.Name);

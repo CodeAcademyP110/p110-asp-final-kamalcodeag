@@ -87,7 +87,7 @@ using Turbo.ViewModels;
             WriteLiteral("</h3>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-12\">\r\n                        <div class=\"s-photo-holder\">\r\n                            ");
             EndContext();
             BeginContext(524, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0b1e8ab5518e4cd1915170d6061e29cb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "64beb49e1e664b859df98c64ee4a0b71", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -78,7 +78,7 @@ using Turbo.ViewModels;
             WriteLiteral("\r\n<h3>Xəbərlər</h3>\r\n<div class=\"col-12\">\r\n    ");
             EndContext();
             BeginContext(108, 146, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43783807f3a9404ebb7564b6212ee11f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9a58014686c4eaea4bfd4f5e108062d", async() => {
                 BeginContext(232, 18, true);
                 WriteLiteral("Yeni xəbər dərc et");
                 EndContext();
@@ -140,7 +140,7 @@ using Turbo.ViewModels;
             WriteLiteral("</td>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(747, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c0fb2318ed64d36a2e324a84ad84f97", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8d1dcfa06fb24e9caeaf8eca0e0830be", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -196,7 +196,7 @@ AddHtmlAttributeValue("", 763, news.PhotoURL, 763, 14, false);
             WriteLiteral("</td>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(997, 149, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "27ca367746fb4fe7985d998108e474df", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5607c0ab54294f939b4a99d3b9682185", async() => {
                 BeginContext(1086, 56, true);
                 WriteLiteral("\r\n                        Daha çox\r\n                    ");
                 EndContext();
@@ -235,7 +235,7 @@ AddHtmlAttributeValue("", 763, news.PhotoURL, 763, 14, false);
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(1213, 191, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e8e4ee23fba42b981bfed98c28a8e5a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "446506b2484f495bbed1423d82f11ec2", async() => {
                 BeginContext(1323, 77, true);
                 WriteLiteral("\r\n                        <i class=\"fas fa-pen\">...</i>\r\n                    ");
                 EndContext();
@@ -284,7 +284,7 @@ AddHtmlAttributeValue("", 763, news.PhotoURL, 763, 14, false);
             WriteLiteral("                        ");
             EndContext();
             BeginContext(1498, 179, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a6f097b004374d22976bc01f1b8d6e01", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e85e43eb86054478b02f92c52ca9cda8", async() => {
                 BeginContext(1584, 89, true);
                 WriteLiteral("\r\n                            <i class=\"far fa-trash-alt\">X</i>\r\n                        ");
                 EndContext();

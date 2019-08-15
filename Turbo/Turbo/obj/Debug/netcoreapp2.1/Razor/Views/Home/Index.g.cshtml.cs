@@ -121,12 +121,12 @@ using Turbo.ViewModels;
             WriteLiteral("\r\n<!--Simple form search-->\r\n<section>\r\n    <div class=\"wrapper\">\r\n        <div class=\"simple-form-search\">\r\n            <div class=\"wideSearch-markas\">\r\n                ");
             EndContext();
             BeginContext(656, 184, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "97f6918829fd440d8d08339f0d4ee564", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1bdb62fae107409e99c062c1c806a303", async() => {
                 BeginContext(760, 22, true);
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(782, 31, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "676d03971dc24cd6b9335be347948cd5", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ad1644a1e864432387cfe7a5b51ce9ab", async() => {
                     BeginContext(790, 14, true);
                     WriteLiteral("Bütün markalar");
                     EndContext();
@@ -169,12 +169,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = (new SelectList(Vi
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(858, 191, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fbee02da5a6d4f049d2c6875ff138204", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "324157c961c744e3a8e0d09a5ff3dfc0", async() => {
                 BeginContext(969, 22, true);
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(991, 31, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "98c7b8a7dd484f578a5487539cfd7bf8", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "baa391e19d864e078d060e782fe8e400", async() => {
                     BeginContext(999, 14, true);
                     WriteLiteral("Bütün modellər");
                     EndContext();
@@ -217,7 +217,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = (new SelectList(Vi
             WriteLiteral("\r\n            </div>\r\n            <div class=\"wideSearch-priceandYear\">\r\n                <div class=\"optionalPrice\">\r\n                    <label>Qiyməti</label>\r\n                    <select class=\"currency\">\r\n                        ");
             EndContext();
             BeginContext(1282, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3faf9f111f9f48dca5e2ebd644c3cbb9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ec6f8ce17804d138ba4a86fe5beff81", async() => {
                 BeginContext(1290, 37, true);
                 WriteLiteral("AZN <i class=\"fas fa-angle-down\"></i>");
                 EndContext();
@@ -249,12 +249,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = (new SelectList(Vi
                     ");
             EndContext();
             BeginContext(1974, 217, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e421f20ea80748be92ad66f6293fabf9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "99f8af691d03440189490416d0981902", async() => {
                 BeginContext(2103, 26, true);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(2129, 31, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7fc62bd2904f470e928cd59da9e75f35", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c47ab3aece934bf9af79adbe61858a5f", async() => {
                     BeginContext(2137, 14, true);
                     WriteLiteral("Bütün şəhərlər");
                     EndContext();
@@ -342,12 +342,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = (new SelectList(Vi
             WriteLiteral("                ");
             EndContext();
             BeginContext(3089, 1609, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e3449a59e39349ab9ac6d7727b2bddf5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec2db5b7d2b84b518595f03dfeda0192", async() => {
                 BeginContext(3173, 193, true);
                 WriteLiteral("\r\n                    <div class=\"productBorder\">\r\n                        <div class=\"onliCar\">\r\n                            <i class=\"far fa-heart likeIcon\"></i>\r\n                            ");
                 EndContext();
                 BeginContext(3366, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d2b0e8c74c8c4ab2a1e00769320c6f4f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "088640a73a4a4a11a5cace07a613b84d", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -520,12 +520,12 @@ AddHtmlAttributeValue("", 3382, announce.Automobile.MainPhotoURL, 3382, 33, fals
             WriteLiteral("                ");
             EndContext();
             BeginContext(5203, 1576, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a66abf856ed240e78a7533dc4c70c542", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9efb4f39624a45a6bfb6db07bc95d37e", async() => {
                 BeginContext(5287, 193, true);
                 WriteLiteral("\r\n                    <div class=\"productBorder\">\r\n                        <div class=\"onliCar\">\r\n                            <i class=\"far fa-heart likeIcon\"></i>\r\n                            ");
                 EndContext();
                 BeginContext(5480, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "69308e667db94b8b9bc1e007ed744802", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5edf4981250747b48b67b40589b8539b", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
