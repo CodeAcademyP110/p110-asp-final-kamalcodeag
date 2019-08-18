@@ -394,46 +394,6 @@ namespace Turbo.Controllers
             }
 
 
-            //if (announcement.Photos != null && announcement.Photos.Count() > 0)
-            //{
-            //    foreach (IFormFile photo in announcement.Photos)
-            //    {
-            //        if (photo.ContentType.Contains("image/"))
-            //        {
-            //            string folderPath = Path.Combine(_env.WebRootPath, "img");
-            //            string fileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
-            //            string filePath = Path.Combine(folderPath, fileName);
-
-            //            using (FileStream fileStream = new FileStream(filePath, FileMode.Create))
-            //            {
-            //                await photo.CopyToAsync(fileStream);
-            //            }
-
-            //            //foreach (var autoPhoto in announcementFromDb.Automobile.AutoPhotos)
-            //            //{
-            //            //    string currentFilePath = Path.Combine(_env.WebRootPath, "img", autoPhoto.PhotoURL);
-            //            //    if (System.IO.File.Exists(currentFilePath))
-            //            //    {
-            //            //        System.IO.File.Delete(currentFilePath);
-            //            //    }
-
-            //            //    _context.AutoPhotos.Remove(autoPhoto);
-            //            //    await _context.SaveChangesAsync();
-            //            //}
-
-            //            AutoPhoto newAutoPhoto = new AutoPhoto
-            //            {
-            //                PhotoURL = fileName,
-            //            };
-
-            //            _context.AutoPhotos.Add(newAutoPhoto);
-            //            await _context.SaveChangesAsync();
-            //        }
-            //    }
-            //}
-
-
-
                 announcementFromDb.UpdateDate = DateTime.Now;
                 announcementFromDb.LocationId = announcement.LocationId;
                 announcementFromDb.IsVIP = announcement.IsVIP;
