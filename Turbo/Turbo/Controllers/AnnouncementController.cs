@@ -369,17 +369,26 @@ namespace Turbo.Controllers
                             await photo.CopyToAsync(fileStream);
                         }
 
-                        foreach (var autoPhoto in announcementFromDb.Automobile.AutoPhotos)
-                        {
-                            string currentFilePath = Path.Combine(_env.WebRootPath, "img", autoPhoto.PhotoURL);
-                            if (System.IO.File.Exists(currentFilePath))
-                            {
-                                System.IO.File.Delete(currentFilePath);
-                            }
+                        //foreach (var autoPhoto in announcementFromDb.Automobile.AutoPhotos)
+                        //{
+                        //    string currentFilePath = Path.Combine(_env.WebRootPath, "img", autoPhoto.PhotoURL);
+                        //    if (System.IO.File.Exists(currentFilePath))
+                        //    {
+                        //        System.IO.File.Delete(currentFilePath);
+                        //    }
 
-                            autoPhoto.PhotoURL = fileName;
-                            await _context.SaveChangesAsync();
-                        }
+                        //    autoPhoto.PhotoURL = fileName;
+                        //    await _context.SaveChangesAsync();
+                        //}
+
+                        AutoPhoto autoPhoto = new AutoPhoto
+                        {
+                            PhotoURL = fileName,
+                            AutomobileId = announcementFromDb.Automobile.Id
+                        };
+
+                        await _context.AutoPhotos.AddAsync(autoPhoto);
+                        await _context.SaveChangesAsync();
                     }
                 }
             }
@@ -425,7 +434,7 @@ namespace Turbo.Controllers
 
 
 
-            announcementFromDb.UpdateDate = DateTime.Now;
+                announcementFromDb.UpdateDate = DateTime.Now;
                 announcementFromDb.LocationId = announcement.LocationId;
                 announcementFromDb.IsVIP = announcement.IsVIP;
                 await _context.SaveChangesAsync();

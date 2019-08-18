@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Turbo",
-    "\\Turbo\\Turbo"
+    "\\Turbo\\Turbo",
+    "\\Turbo\\Turbo\\wwwroot",
+    "\\Turbo\\Turbo\\wwwroot\\lib"
   ],
-  "SelectedNode": "\\Turbo\\Turbo.sln",
+  "SelectedNode": "\\Turbo\\Turbo\\wwwroot\\lib\\main.js",
   "PreviewInSolutionExplorer": false
 }
